@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: persevcareers/perseverance-project:VERSION
+        image: "krishn1/moviestreaming:VERSION
         imagePullPolicy: Always
         ports:
         - containerPort: 3000
