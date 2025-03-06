@@ -30,7 +30,7 @@ metadata:
 spec:
   ports:
   - port: 3000
-    targetPort: 3000  # Changed from 80 to 3000
+    targetPort: 80 
     protocol: TCP
     nodePort: 30005
   selector:
